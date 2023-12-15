@@ -58,30 +58,27 @@ nav ul li a {
 nav ul li a :hover {
     color: #d83a31;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     nav {
         position: relative;
         right: auto;
         bottom: auto;
-        text-align: center;
+        text-align: right; 
     }
 
     nav ul {
         display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
+        flex-direction: row; 
+        justify-content: flex-end; 
     }
 
     nav ul li {
         float: none;
-        margin: 0;
-        float: left;
-        color: #b6554c;
-        width: 10%;
-        margin: 0.9em;
-        font-size: 130%;
-        font-family: candara_bold;
-        list-style: none;
+        margin: 25px 10px 0 0; 
+    }
+
+    nav ul li a {
+        font-size: 0.65em; 
     }
 }
 
