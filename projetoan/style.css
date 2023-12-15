@@ -58,6 +58,32 @@ nav ul li a {
 nav ul li a :hover {
     color: #d83a31;
 }
+@media screen and (max-width: 600px) {
+    nav {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    nav ul li {
+        float: none;
+        margin: 0;
+        float: left;
+        color: #b6554c;
+        width: 10%;
+        margin: 0.9em;
+        font-size: 130%;
+        font-family: candara_bold;
+        list-style: none;
+    }
+}
 
 #banner {
     width: 100%;
@@ -391,3 +417,4 @@ footer .footer-text a {
     width: 40px;
     margin-right: 10px; 
 }
+
