@@ -193,7 +193,6 @@ footer .footer-text a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 #meusclientes .config-clientes {
@@ -225,6 +224,7 @@ footer .footer-text a {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 #meusclientes .config-clientes .link {
     text-align: center;
     margin-top: 10px; 
@@ -238,9 +238,13 @@ footer .footer-text a {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-
 }
 
+@media screen and (max-width: 768px) {
+    #meusclientes .config-clientes {
+        width: 100%; 
+        margin-right: 0; 
+    }}
 
 #container-sobre {
     width: 65%;
