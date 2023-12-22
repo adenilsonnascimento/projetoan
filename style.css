@@ -307,10 +307,18 @@ footer .footer-text a {
 
 #img-conteudo-sobre {
     width: 45%;
-    height: 22em;
+    max-height: 22em;
     margin-top: 5px;
     border: 2px solid #111;
     border-radius: 30px;
+}
+
+#img-conteudo-sobre img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    display: block;
+    border-radius: 28px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -329,17 +337,18 @@ footer .footer-text a {
         margin-right: 1.5em;
         flex-direction: column;
         margin-top: 2.5em;
-        
+
     }
 
     #txt-sobre {
         width: 80%;
-        margin-bottom: 1px;  
+        margin-bottom: 1px;
     }
 
     #img-conteudo-sobre {
         width: 100%;
         margin-top: 1em;
+
     }
 }
 
@@ -348,7 +357,7 @@ footer .footer-text a {
     justify-content: space-between;
     margin-top: 1.5em;
     margin-right: 1.5em;
-    
+
 }
 
 #txt-contato form {
@@ -424,7 +433,7 @@ footer .footer-text a {
 }
 
 .icon {
-    width: 24px; 
+    width: 24px;
     height: 24px;
     margin-right: 10px;
 }
@@ -432,16 +441,16 @@ footer .footer-text a {
 #conta-data h5 img {
     margin-right: 10px;
 }
+
 @media (max-width: 768px) {
     #txt-contato {
-        margin-right: 1.5em; 
-        flex-direction: column; 
+        margin-right: 1.5em;
+        flex-direction: column;
         margin-top: 2.5em;
-    
     }
 
     #conta-data {
-        margin-left: 0;  
-        margin-top: em;
+        margin-left: 0;
+        margin-top: 2em;
     }
 }
