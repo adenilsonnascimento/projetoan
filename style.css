@@ -313,13 +313,6 @@ footer .footer-text a {
     border-radius: 30px;
 }
 
-#img-conteudo-sobre img {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-}
-
-
 @media only screen and (max-width: 768px) {
     #container-sobre {
         display: flex;
@@ -430,14 +423,13 @@ footer .footer-text a {
     color: #111;
 }
 
-.icon-container {
-    width: 60px;
-    height: 40px;
+.icon {
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px;
 }
 
 #conta-data h5 img {
-    width: 100%;
-    height: 100%;
     margin-right: 10px;
 }
 @media (max-width: 768px) {
